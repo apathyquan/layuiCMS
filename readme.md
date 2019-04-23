@@ -112,33 +112,29 @@ cancel:取消按钮回调
 | --- | --- | --- | --- | --- |
 | content | label | 名称 | String |   |
 || name | 输入框name属性 | String |   |
-| inputType | input的type属性,默认为text | String |   |
-| skin | 属性lay-skin skin:switch（开关风格） primary（原始风格）| String | checkbox |
-| layText | 原layui属性lay-text可自定义开关两种状态的文本 | String | checkbox |
-| value | 默认值 | String/array |   |
-| type | 默认是text，tree：树形组件，select：选择器，formSelect：多选框，editor：富文本，textarea：多行的文本，uploadImg：单张图片，uploadGallery：相册 | String |   |
-| verify | 输入框校验规则,直接使用layui的验证规则即可 | String |   |
-| autocomplete | 设置是否自动完成 | String |   |
-| filter | 事件过滤器即layui的lay-filter属性，默认为空 | String |   |
-| verType | 用于定义异常提示层模式，系统默认tips | String |   
-| remark | 输入框提示标签,默认不显示 | String |   |
-| keyVal | 指定选项的值为选项对象的某个属性值：默认值：id | String | formSelect |
-| keyName | 指定选项标签为选项对象的某个属性值，默认值：name | String | formSelect |
-| keyChildren | 指定选项的子选项为选项对象的某个属性值，默认值：children | String | formSelect |
-| keySel | 指定选择已选择的标记，默认值selected | String | formSelect |
-| linkage | 是否开启联动选择 | bool | formSelect |
-| linkageWidth | 联动多选每级宽度 | number | formSelect |
-| selectMax | 最大选择数量，默认1 | number | formSelect |
-| style | 默认primary； | String | formSelect |
-| default 浅灰 |
-| primary 墨绿 |
-| normal 深蓝 |
-| warm 屎黄 |
-| danger 橘红 |
-| optionData | 选择框数据，当url属性存在该参数则失效 | Json | formSelect、select |
-| header | 请求头，url属性存在才生效 | Object | formSelect |
-| url | 从接口获取数据 | String | formSelect使用 |
-| uploadUrl | 上传文件路径 | String | uploadImg、uploadGallery |
+||inputType | input的type属性,默认为text | String |   |
+|| skin | 属性lay-skin skin:switch（开关风格） primary（原始风格）| String | checkbox |
+|| layText | 原layui属性lay-text可自定义开关两种状态的文本 | String | checkbox |
+|| value | 默认值 | String/array |   |
+|| type | 默认是text，tree：树形组件，select：选择器，formSelect：多选框，editor：富文本，textarea：多行的文本，uploadImg：单张图片，uploadGallery：相册 | String |   |
+|| verify | 输入框校验规则,直接使用layui的验证规则即可 | String |   |
+|| autocomplete | 设置是否自动完成 | String |   |
+|| filter | 事件过滤器即layui的lay-filter属性，默认为空 | String |   |
+|| verType | 用于定义异常提示层模式，系统默认tips | String |   
+|| remark | 输入框提示标签,默认不显示 | String |   |
+|| keyVal | 指定选项的值为选项对象的某个属性值：默认值：id | String | formSelect |
+|| keyName | 指定选项标签为选项对象的某个属性值，默认值：name | String | formSelect |
+|| keyChildren | 指定选项的子选项为选项对象的某个属性值，默认值：children | String | formSelect |
+|| keySel | 指定选择已选择的标记，默认值selected | String | formSelect |
+|| linkage | 是否开启联动选择 | bool | formSelect |
+|| linkageWidth | 联动多选每级宽度 | number | formSelect |
+|| selectMax | 最大选择数量，默认1 | number | formSelect |
+|| style | 默认primary， default 浅灰 primary 墨绿 normal 深蓝 warm 屎黄 danger 橘红| String | formSelect |
+
+|| |optionData | 选择框数据，当url属性存在该参数则失效 | Json | formSelect、select |
+|| header | 请求头，url属性存在才生效 | Object | formSelect |
+|| url | 从接口获取数据 | String | formSelect使用 |
+|| uploadUrl | 上传文件路径 | String | uploadImg、uploadGallery |
 | formFilter |   | form表单lay-filter的值，默认：editForm | String |   |
 | button |   | 是否显示提交按钮 | bool |   |
 | view |   | 渲染form表单id，默认：inputContent | String |   |

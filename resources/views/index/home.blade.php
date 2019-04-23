@@ -44,6 +44,12 @@
                 </table>
             </div>
         </div>
+        <div class="layui-col-md6 version-block">
+            <div class="layui-card block-bg ">
+                <div class="card-title"><b>打赏(疯狂暗示)</b></div>
+                <img src="{{asset('image/pay.png')}}" style="width:200px;height:200px"  alt="">
+            </div>
+        </div>
     </div>
 </div>
 

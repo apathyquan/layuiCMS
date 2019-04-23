@@ -106,11 +106,11 @@ cancel:取消按钮回调
 
 }
 
+
+
 | jsonData | 属性 | 说明 | 数据类型 | 使用type范围 |
 | --- | --- | --- | --- | --- |
 | content | label | 名称 | String |   |
-|
-| |
 | name | 输入框name属性 | String |   |
 | inputType | input的type属性,默认为text | String |   |
 | skin | 属性lay-skin | String | checkbox |

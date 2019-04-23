@@ -113,8 +113,7 @@ cancel:取消按钮回调
 | content | label | 名称 | String |   |
 | name | 输入框name属性 | String |   |
 | inputType | input的type属性,默认为text | String |   |
-| skin | 属性lay-skin | String | checkbox |
-| skin:switch（开关风格） primary（原始风格） |
+| skin | 属性lay-skin skin:switch（开关风格） primary（原始风格）| String | checkbox |
 | layText | 原layui属性lay-text可自定义开关两种状态的文本 | String | tcheckbox |
 | value | 默认值 | String/array |   |
 | type | 默认是text，tree：树形组件， | String |   |
@@ -122,10 +121,7 @@ cancel:取消按钮回调
 | verify | 输入框校验规则,直接使用layui的验证规则即可 | String |   |
 | autocomplete | 设置是否自动完成 | String |   |
 | filter | 事件过滤器即layui的lay-filter属性，默认为空 | String |   |
-| verType | 用于定义异常提示层模式，系统默认tips | String |   |
-| tips（吸附层） |
-| alert（对话框） |
-| msg（默认） |
+| verType | 用于定义异常提示层模式，系统默认tips | String |   
 | remark | 输入框提示标签,默认不显示 | String |   |
 | keyVal | 指定选项的值为选项对象的某个属性值：默认值：id | String | formSelect |
 | keyName | 指定选项标签为选项对象的某个属性值，默认值：name | String | formSelect |

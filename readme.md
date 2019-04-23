@@ -111,13 +111,12 @@ cancel:取消按钮回调
 | jsonData | 属性 | 说明 | 数据类型 | 使用type范围 |
 | --- | --- | --- | --- | --- |
 | content | label | 名称 | String |   |
-| name | 输入框name属性 | String |   |
+|| name | 输入框name属性 | String |   |
 | inputType | input的type属性,默认为text | String |   |
 | skin | 属性lay-skin skin:switch（开关风格） primary（原始风格）| String | checkbox |
-| layText | 原layui属性lay-text可自定义开关两种状态的文本 | String | tcheckbox |
+| layText | 原layui属性lay-text可自定义开关两种状态的文本 | String | checkbox |
 | value | 默认值 | String/array |   |
-| type | 默认是text，tree：树形组件， | String |   |
-| select：选择器，formSelect：多选框，editor：富文本，textarea：多行的文本，uploadImg：单张图片，uploadGallery：相册 |
+| type | 默认是text，tree：树形组件，select：选择器，formSelect：多选框，editor：富文本，textarea：多行的文本，uploadImg：单张图片，uploadGallery：相册 | String |   |
 | verify | 输入框校验规则,直接使用layui的验证规则即可 | String |   |
 | autocomplete | 设置是否自动完成 | String |   |
 | filter | 事件过滤器即layui的lay-filter属性，默认为空 | String |   |

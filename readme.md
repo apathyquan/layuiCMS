@@ -130,7 +130,6 @@ cancel:取消按钮回调
 || linkageWidth | 联动多选每级宽度 | number | formSelect |
 || selectMax | 最大选择数量，默认1 | number | formSelect |
 || style | 默认primary， default 浅灰 primary 墨绿 normal 深蓝 warm 屎黄 danger 橘红| String | formSelect |
-
 ||optionData | 选择框数据，当url属性存在该参数则失效 | Json | formSelect、select |
 || header | 请求头，url属性存在才生效 | Object | formSelect |
 || url | 从接口获取数据 | String | formSelect使用 |
